@@ -51,8 +51,7 @@ class MainActivity : AppCompatActivity() {
                     userInput2.text.clear()
                     userInput3.text.clear()
                 }else {
-                    textView?.append("\n")
-                    textView?.text = "Fallo"
+                    textView?.append("")
                 }
             }
         })
